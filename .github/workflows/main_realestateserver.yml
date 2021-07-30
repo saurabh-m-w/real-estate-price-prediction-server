@@ -35,5 +35,5 @@ jobs:
       with:
         app-name: 'realestateserver'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3087bf1239b4412cab960261c315fab0 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c4de9ca02dd7485f97835e057a3e2b92 }}
         package: '.\app.zip'
